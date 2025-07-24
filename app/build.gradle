@@ -15,7 +15,7 @@ android {
     defaultConfig {
         applicationId "org.koreader.launcher"
         versionName versName
-        minSdkVersion rootProject.ext.minSdk
+        minSdkVersion 25
         targetSdkVersion rootProject.ext.targetSdk
 
         manifestPlaceholders.APP_NAME = projectName
